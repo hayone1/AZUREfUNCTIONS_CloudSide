@@ -1,0 +1,19 @@
+{
+  "bindings": [
+    {
+      "name": "myQueueItem",
+      "connection": "AzureIoTSB_RootManageSharedAccessKey_SERVICEBUS4",
+      "queueName": "iothubemailqueue",
+      "direction": "in",
+      "type": "serviceBusTrigger"
+    },
+    {
+      "name": "messageSender",
+      "direction": "out",
+      "type": "twilioSms",
+      "accountSidSetting": "TwilioAccountSid",
+      "authTokenSetting": "TwilioAuthToken",
+      "from": "use your twilo assigned phone number"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+    "bindings": [
+      {
+        "name": "events",
+        "connection": "FinalYearHub_events_IOTHUB5",
+        "eventHubName": "iothub-ehub-finalyearh-11977231-13f5cef02d",
+        "consumerGroup": "myconsumer",
+        "direction": "in",
+        "type": "eventHubTrigger"
+      }
+    ]
+  }
