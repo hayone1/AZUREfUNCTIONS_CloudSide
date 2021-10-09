@@ -10,8 +10,8 @@ using Microsoft.Azure.Cosmos.Table;
 //class to query table for devices info; specific device is selected based on row and partition
 //then returned to client app for display or action 
 
-public static readonly string connString = "DefaultEndpointsProtocol=https;AccountName=csb100320011365a98f;AccountKey=EDq/RxslelK1FGx1EyCxXvM5F63T/jbZ7CYJET9qkb5dbBL8A+XI2H2AWnzjRdAFmr+E3kb3M9lbVRAVaASGBA==;EndpointSuffix=core.windows.net";
-//device row and partition should be able to uniquely identify each device
+// public static readonly string connString = "DefaultEndpointsProtocol=https;AccountName=csb50998223a98f;AccountKey=EDq/hstdbgTSRGREDG/sdhrydydu66sdg+XI2H2AWnzjRdAFmr+E3kb3M9lbVRAVaASGBA==;EndpointSuffix=core.windows.net";
+public static readonly string connString = "use your own connection string it looks like the above comment";//device row and partition should be able to uniquely identify each device
 public static string device_partition;
 public static string device_row;
 

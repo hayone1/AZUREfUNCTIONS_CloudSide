@@ -25,8 +25,8 @@ using Microsoft.Graph.Core;
 //This function sends alerts via SMS and gmail to client when conditions are met
 
 // public static async Task Run(string myQueueItem, ILogger log)
-public static readonly string connString = "DefaultEndpointsProtocol=https;AccountName=csb100320011365a98f;AccountKey=EDq/RxslelK1FGx1EyCxXvM5F63T/jbZ7CYJET9qkb5dbBL8A+XI2H2AWnzjRdAFmr+E3kb3M9lbVRAVaASGBA==;EndpointSuffix=core.windows.net";
-public static string _userPhoneNo = String.Empty;
+// public static readonly string connString = "DefaultEndpointsProtocol=https;AccountName=csb50998223a98f;AccountKey=EDq/hstdbgTSRGREDG/sdhrydydu66sdg+XI2H2AWnzjRdAFmr+E3kb3M9lbVRAVaASGBA==;EndpointSuffix=core.windows.net";
+public static readonly string connString = "use your own connection string it looks like the above comment";public static string _userPhoneNo = String.Empty;
 //message levels
 public const string normalMessage = "normal";
 public const string warningMessage = "warning";
