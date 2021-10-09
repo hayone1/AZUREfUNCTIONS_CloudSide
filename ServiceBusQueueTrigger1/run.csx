@@ -57,8 +57,8 @@ public static async Task Run(string myQueueItem, [TwilioSms(AccountSidSetting = 
     var e = JsonConvert.DeserializeObject<TelemetryDataPoint<object>>(myQueueItem as string);
 
 
-        CloudStorageAccount storageAccount = CloudStorageAccount.Parse("DefaultEndpointsProtocol=https;AccountName=csb100320011365a98f;AccountKey=EDq/RxslelK1FGx1EyCxXvM5F63T/jbZ7CYJET9qkb5dbBL8A+XI2H2AWnzjRdAFmr+E3kb3M9lbVRAVaASGBA==;EndpointSuffix=core.windows.net");
-        
+// CloudStorageAccount storageAccount = CloudStorageAccount.Parse("DefaultEndpointsProtocol=https;AccountName=csb50998223a98f;AccountKey=EDq/hstdbgTSRGREDG/sdhrydydu66sdg+XI2H2AWnzjRdAFmr+E3kb3M9lbVRAVaASGBA==;EndpointSuffix=core.windows.net");
+        CloudStorageAccount storageAccount = CloudStorageAccount.Parse("use your own connection string it looks like the above comment");        
         // Create the table client.
         CloudTableClient tableClient = storageAccount.CreateCloudTableClient();
 
